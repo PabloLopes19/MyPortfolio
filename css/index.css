@@ -1,0 +1,181 @@
+:root{
+    --MenuBackgroundColor: #3498DB;
+    --BlueBackgroundText: #FFF;
+    --TitleColor: #000;
+    --DescriptionColor: rgba(0, 0, 0, 0.6);
+    --CardColor: #FFF;
+    --BackgroundColor: #ECF0F1;
+    --BtnColor: #3498DB;
+}
+.devContainer{
+    margin-top: 100px;
+    /* background: blue; */
+    width: 100%; height: 60vh;
+    display: flex;
+    align-items: center;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 30%; height: 100%;
+    /* background: yellow; */
+    padding-right: 20px;
+}
+.right{
+    /* background: green; */
+    width: 70%; height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0 50px 0;
+}
+.top{
+    width: 100%; height: 30%;
+    /* background: cyan; */
+    display: flex;
+}
+.topLeft{
+    height: 100%; width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background: coral; */
+}
+.topRight{
+    height: 100%; width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background: darkgreen; */
+}
+.bottom{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    padding-top: 30px;
+    /* background: white; */
+}
+.userImg{
+    border-radius: 50%;
+    width: 80%;
+}
+.topLeft h1{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.topLeft p{
+    font-size: 20px;
+    color: var(--DescriptionColor);
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+.btnSocialMedia{
+    margin: 10px;
+    font-size: 40px;
+    background: var(--BtnColor);
+    border-radius: 6px;
+    padding: 10px;
+    width: 70px; height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    transition: all 0.2s;
+}
+.btnSocialMedia:hover i{
+    transform: translateY(-5px);
+    color: rgba(255, 255, 255, 0.8);
+}
+.bottom p{
+    width: 95%;
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: var(--DescriptionColor);
+    line-height: 25px;
+}
+.cardContainer{
+    height: 70; width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    /* border-top: 2px solid #272727; */
+}
+.border{
+    height: 2px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+    width: 60%;
+    margin-top: 50px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Title{
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.cards{
+    display: flex;
+}
+.card{
+    width: 300px; height: 300px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 20px 0 20px;
+    border-radius: 6px;
+}
+.btnAccess{
+    display: flex;
+    justify-content: center;
+    background: #3498DB;
+    width: 60%;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    transition: all 0.2s;
+    border-radius: 6px;
+}
+.btnAccess:hover{
+    background: #2a7fb8;
+    color: rgba(255, 255, 255, 0.8);
+}
+.CardTitle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.CardDescription{
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: bold; */
+    color: #272727;
+    width: 80%;
+    height: 40%;
+    /* background: #333; */
+    border-radius: 6px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}

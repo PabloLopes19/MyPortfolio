@@ -1,0 +1,245 @@
+:root{
+    --MenuBackgroundColor: #3498DB;
+    --BlueBackgroundText: #FFF;
+    --TitleColor: #000;
+    --DescriptionColor: rgba(0, 0, 0, 0.6);
+    --CardColor: #FFF;
+    --BackgroundColor: #ECF0F1;
+    --BtnColor: #3498DB;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.aboutMe{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.aboutMeLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+.aboutMeLeft h1{
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.aboutMeLeft p{
+    width: 70%;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.aboutMeLeft a{
+    background: #3498DB;
+    /* padding: 20px; */
+    font-size: 40px;
+    border-radius: 50%;
+    width: 70px; height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 50px;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+.aboutMeLeft a:hover{
+    background: #298aca;
+}
+.aboutMeRight{
+    height: 100%; width: 40%;
+    /* background: #333; */
+    background-image: url('../assets/MyUserImg.jpg');
+    background-size: 50%;
+    background-position-x: 20%;
+    background-position-y: 0px;
+    background-attachment: fixed;
+}
+.tecnologias{
+    width: 100%; height: 100vh;
+    background: #3498DB;
+    transition: all 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tecnologias .btnPage{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    outline: none;  
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+.tecnologias .btnPage i{
+    font-size: 10px;
+    margin-right: 5px;
+}
+.tecnologias .btnPage:hover{
+    color: rgba(255, 255, 255, 0.6);
+}
+.tecnologias .btnPage:hover i{
+    transform: translateX(-5px);
+}
+.frameworks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnFramework{
+    /* padding: 20px; */
+    background: #fff;
+    font-size: 100px;
+    width: 150px; height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px 0 20px;
+    border-radius: 6px;
+    color: #3498DB;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+.btnFramework strong{
+    font-size: 20px;
+    position: absolute;
+    transform: translateY(70px);
+    font-family: 'Roboto', sans-serif;
+    color: transparent;
+    transition: all 0.2s;
+}
+i{
+    transition: all 0.2s;
+}
+.btnFramework:hover{
+    /* background: #ddd; */
+    color: #298aca;
+}
+.btnFramework:hover strong{
+    color: #3498DB;
+    transform: translateY(60px);
+}
+.btnFramework:hover i{
+    transform: translateY(-10px);
+}
+.tecnologias h1{
+    font-size: 70px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+.tecnologias p{
+    width: 40%;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.btnInteresses{
+    background: #fff;
+    color: #3498DB;
+    font-size: 15px;
+    width: 15%;
+    margin-top: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+.btnInteresses:hover{
+    background: #ddd
+}
+.interesses{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.interessesLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: 60%;
+    height: 100%;
+}
+.interessesLeft h1{
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.interessesLeft p{
+    width: 70%;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 20px 0 20px 0;
+}
+.interessesLeft a{
+    /* padding: 20px; */
+    font-size: 20px;
+    border-radius: 50%;
+    width: 70px; height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3498DB;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.2s;
+}
+.interessesLeft a:hover{
+    color: rgb(52, 152, 219, 0.3);
+}
+.interessesLeft a:hover i{
+    transform: translateX(-5px);
+}
+.interessesLeft i{
+    margin-right: 5px;
+    font-size: 10px;
+    transition: all 0.2s;
+}
+.interessesRight{
+    height: 100%; width: 40%;
+    /* background: #333; */
+    background-image: url('../assets/Discord\ 1.jpg');
+    background-size: 70%;
+    background-position-x: 500px;
+    background-position-y: 0px;
+    background-attachment: fixed;
+}
+.leftHeader{
+    height: 10%; width: 100%;
+    padding: 0 20px 0 20px;
+    display: flex;
+    /* background:yellow; */
+    align-items: center;
+}
+.interessesContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+    /* background: green; */
+}
